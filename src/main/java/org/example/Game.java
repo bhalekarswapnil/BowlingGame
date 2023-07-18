@@ -1,2 +1,6 @@
-package org.example;public class Game {
+package org.example;
+
+public interface Game {
+    void roll(int pins);
+    int score();
 }
